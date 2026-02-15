@@ -6,21 +6,19 @@ Intermediate matrices are computed indirectly via a vector that indicates the cl
 
 This project was developed for the Parallel and Distributed Systems course at ECE AUTH (2023–2024).
 
-Input matrices are in Matrix Market (.mtx) format.
+Input matrices are in Matrix Market (.mtx) format (for example, this project uses the matrix: `af23560.mtx`).
 
+**Compile:**
 
-Build & Run
-
-Compile:
-
+```bash
 gcc sparse_mult_main.c sparse_utils.c mmio.c -o sparse_mult
 
-Run:
+**Run:**
 
+```bash
 ./sparse_mult
 
-
-Output:
+**Output:**
 
 Elapsed time: 149.137000 seconds
 
