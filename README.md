@@ -12,11 +12,13 @@ Input matrices are in Matrix Market (.mtx) format (for example, this project use
 
 ```bash
 gcc sparse_mult_main.c sparse_utils.c mmio.c -o sparse_mult
+```
 
 **Run:**
 
 ```bash
 ./sparse_mult
+```
 
 **Output:**
 
