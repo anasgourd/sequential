@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+int read_matrix_market_to_csr(const char *filename, int *nrows, int *ncols, int *nnz,
+                              int **row_ptr, int **col_ind, double **values);
+
 typedef struct {
     double *values;
     int *indptr;
